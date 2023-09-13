@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="891454fb-16ca-4b47-b95f-9381f6f8f8b2">
+  <producedTypes>
+    <objectType typeId="9d20244f-7d41-4d99-9905-87c46058ce29" valueTypeId="9d4ca6ec-55d6-4f15-b84f-a902c2732453"/>
+    <managerType typeId="5d174f87-c93e-44a6-81b1-427f901564da" valueTypeId="59b5b6e7-2038-481e-b582-76b12921d984"/>
+  </producedTypes>
+  <name>ПровестиЗаписатьДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Провести записать документ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПровестиЗаписатьДокумент.Form.Форма</defaultForm>
+  <attributes uuid="b800e5a2-86fd-49f3-a234-2c905c29548d">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РасходнаяНакладная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d6dff3ad-8092-4b0d-9035-286446da60cd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

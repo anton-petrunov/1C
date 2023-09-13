@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7698aef2-239e-4b46-8ded-6f88ede42c79">
+  <producedTypes>
+    <refType typeId="0a70cb8b-68db-4cc3-9751-1ca79af55b44" valueTypeId="b0971bb0-6540-42e2-abde-2579c12b9ccd"/>
+    <listType typeId="09c0436d-5a13-4b53-8b75-10955ab25f3f" valueTypeId="75c84a9f-81f1-4934-a6fa-c1999b2b0a4b"/>
+    <managerType typeId="234f9768-7440-4bd4-95d0-d27835d8c98d" valueTypeId="046dd5af-a4b3-4dab-9d08-c4a4b647f3e3"/>
+  </producedTypes>
+  <name>СистемаНалогооблажения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система налогооблажения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="df84ee0a-6271-42b9-acc0-b9c549289b89">
+    <name>Общая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d03ddec-6106-4299-9b07-42897b2c9314">
+    <name>Упрощенная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упрощенная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

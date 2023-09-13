@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a338fd8c-08c3-4c15-a216-7412ad02a02e">
+  <producedTypes>
+    <listType typeId="27ec411c-f15f-4e9e-8534-59ee5b759d99" valueTypeId="a5bf6c14-660a-4927-b820-1a3fac51919a"/>
+    <managerType typeId="6f2ae632-e047-410f-98aa-8e1c918ab5b3" valueTypeId="cd5fcdbd-b0bd-45e1-b706-8ca577b57bcd"/>
+  </producedTypes>
+  <name>ДокументыКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы контрагента</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ЗаказПоставщику.Attribute.Контрагент</content>
+  <content>Document.ПриходнаяНакладная.Attribute.Контрагент</content>
+  <content>Document.ЗаказКлиента.Attribute.Контрагент</content>
+  <content>Document.РасходнаяНакладная.Attribute.Контрагент</content>
+</mdclass:FilterCriterion>

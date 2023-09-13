@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03df57e8-0118-4b4b-b521-6abcff1d5ff6">
+  <producedTypes>
+    <selectionType typeId="c5a1803f-2c50-48e6-8b56-6b7c3456def2" valueTypeId="5f2bd5fe-323f-4611-9e15-6f7def0d82d4"/>
+    <listType typeId="c1cb4104-8e89-49e3-b562-7083e2041039" valueTypeId="ba5cf073-5d54-4d79-b095-11f558b0ec70"/>
+    <managerType typeId="85042fed-9220-4a3a-b141-a8a727d05e06" valueTypeId="0427a1cd-40b8-4c1b-bdfc-5bd68ff5778a"/>
+    <recordSetType typeId="523455ef-8214-4880-80bc-0c41fa09d096" valueTypeId="9b874c30-069b-4102-ab5a-4a42a6d265db"/>
+    <recordKeyType typeId="84d95f67-eb3c-45de-9dc7-a335b1dd8d33" valueTypeId="0e2556b3-e975-4884-9c42-387a90f5bfbb"/>
+    <recordType typeId="4a667603-1f2d-4c31-a586-dc10e4e49fc7" valueTypeId="d55485bb-0870-49c8-970e-714bab7c3578"/>
+    <recordManagerType typeId="d9e247a8-c617-48f1-8ddb-3d4699503342" valueTypeId="fe148327-86e3-4322-8b8e-3a97a42df528"/>
+  </producedTypes>
+  <name>ЦеныНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Цена</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Цена номенклатуры</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Цены</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Цены номенклатуры</value>
+  </extendedListPresentation>
+  <resources uuid="f7c8976c-812c-48cd-8dca-f17374287e80">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <comment>Цена</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="dfaad7b6-22e8-4fa6-ae48-0b98c5c4ba1f">
+    <name>ВидЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид цен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипВидаЦен</name>
+      <value xsi:type="core:ReferenceValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dcab83f4-5a90-49e6-91a0-1f2fffdd746a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

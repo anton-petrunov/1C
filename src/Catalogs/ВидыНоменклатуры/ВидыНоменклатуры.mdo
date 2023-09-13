@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b04a5f4-41bf-4d73-ac05-90c34a4ddabb">
+  <producedTypes>
+    <objectType typeId="6eaa57ba-f851-492e-9b09-289d9593be51" valueTypeId="0dcbfcac-8f49-4308-8045-4387aa27bd76"/>
+    <refType typeId="24f03373-44c6-45bc-9196-7ab56f744a56" valueTypeId="d4768202-fb1c-4db5-84d0-fb07e3dbe140"/>
+    <selectionType typeId="5ee94ff8-b64f-40c4-ae2a-f51b44aa693c" valueTypeId="c06a2544-85cd-4f5c-94b9-02a453bae14e"/>
+    <listType typeId="2adb13ad-af00-4354-86ae-27370333f879" valueTypeId="eea21bd4-a47e-4c20-a9a2-e06929772962"/>
+    <managerType typeId="49b07ed8-3cc7-4c85-b6ec-db7ff84d1c5e" valueTypeId="8ff2dcf8-a9d2-4d48-882e-20bef0eb7648"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b9a74dd0-1adf-4c3d-aa39-9977a3e589ba">
+    <name>ТипНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номенклатуры</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

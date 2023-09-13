@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c28f21f-63f6-4ef1-823a-9f1f41dad2f8">
+  <producedTypes>
+    <objectType typeId="36a863d2-9212-4463-ac26-4d2ce6cbe293" valueTypeId="88e22e42-3381-4dfd-be36-ae689f5063d7"/>
+    <managerType typeId="4172485e-b83c-45a0-ac19-d08dfa66b793" valueTypeId="8aedc9a9-6db5-4174-8e95-a162171e5d37"/>
+  </producedTypes>
+  <name>ПросмотрРезервыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр резервы товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПросмотрРезервыТоваров.Form.Форма</defaultForm>
+  <forms uuid="0027bac8-fc27-4f28-bbd4-fceaa48843ac">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c226e9d-585f-4735-9bde-0272bdd62094">
+  <producedTypes>
+    <objectType typeId="05073c3a-6edc-43c0-ab5c-25a312a8e49f" valueTypeId="de6d8581-bd5f-4509-9272-50394bde3a33"/>
+    <managerType typeId="a4d50860-c6f4-4b52-ac55-2edf979ec565" valueTypeId="abbb0e82-9207-4ec5-b48d-434e807d4a79"/>
+  </producedTypes>
+  <name>КакУстроенРегистрНакопления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Как устроен регистр накопления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КакУстроенРегистрНакопления.Form.Форма</defaultForm>
+  <forms uuid="9339481b-a4d9-43a7-8bad-df08925fb995">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

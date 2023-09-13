@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07696d18-41a7-4e8b-89da-0f57dccd624b">
+  <producedTypes>
+    <selectionType typeId="8173da8c-7694-42ed-953c-502166e972df" valueTypeId="48fb2ac0-1099-425d-a982-f04268652d96"/>
+    <listType typeId="b62859ed-de40-4313-835b-2adfc028e43c" valueTypeId="ea8f7358-7ece-4d97-a626-d918fc2a8e01"/>
+    <managerType typeId="fc8bf3e1-0b3d-40ac-bb30-5c0b43c9cf5d" valueTypeId="fade7e68-de76-4871-ab20-27b8edcc3145"/>
+  </producedTypes>
+  <name>ДвиженияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПриходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.РасходнаяНакладная</registeredDocuments>
+  <columns uuid="9cd95772-13b0-47c1-ae02-5c0d63c37e78">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Организация</references>
+    <references>Document.РасходнаяНакладная.Attribute.Организация</references>
+  </columns>
+  <columns uuid="31788683-9355-400b-ba0b-d0b4e52a769e">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Склад</references>
+    <references>Document.РасходнаяНакладная.Attribute.Склад</references>
+  </columns>
+  <columns uuid="d333a6be-ce02-42d7-98d9-92ce9015888c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Контрагент</references>
+    <references>Document.РасходнаяНакладная.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="c53d8a58-dd01-491e-8648-9f1957f46bbb">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.СуммаДокумента</references>
+    <references>Document.РасходнаяНакладная.Attribute.СуммаДокумента</references>
+  </columns>
+</mdclass:DocumentJournal>

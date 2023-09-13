@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7a68b08-8304-4eb7-98dd-1445be1bad73">
+  <producedTypes>
+    <managerType typeId="eb53bdf9-14ea-4773-bbfe-a7eeb1e06afd" valueTypeId="26211e9c-786a-49a7-8825-349085b3a3db"/>
+    <valueManagerType typeId="4cf6cc04-9ecf-4675-9661-9d18b1439a45" valueTypeId="972e088a-66cb-4ead-b7a5-374501c93323"/>
+    <valueKeyType typeId="0ee0e454-f75b-447c-90ea-bd9f44dc5e9e" valueTypeId="a6e0384b-b242-42ec-94a9-2d884744ba52"/>
+  </producedTypes>
+  <name>МетодикаКонтроляОстатковРасходнойНакладной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методика контроля остатков расходной накладной</value>
+  </synonym>
+  <type>
+    <types>EnumRef.МетодикиКонтроляОстатков</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fe4668d-d07c-4a40-96ec-3206cc8f3b7d">
+  <producedTypes>
+    <refType typeId="b04f1c8c-a075-4553-a1e7-44fd13e025ca" valueTypeId="f0fd54c7-8829-4ba6-b22e-2d2bba5fd64c"/>
+    <listType typeId="9e19ef63-12df-4044-ac15-b74df4a92f4b" valueTypeId="47c27398-8004-484f-b7bf-de60e62ebe1d"/>
+    <managerType typeId="d6d9d7a8-0d3d-48a4-8f4c-13bb1a575f64" valueTypeId="b1d76b51-b692-4465-9de6-db02a8f8da00"/>
+  </producedTypes>
+  <name>МетодикиКонтроляОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методики контроля остатков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3c62b350-81a4-410f-82b9-cd9546737821">
+    <name>СтараяМетодика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старая методика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6ee939a-c4c7-496a-bbec-fcf1c30a6e9c">
+    <name>НоваяМетодика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая методика</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

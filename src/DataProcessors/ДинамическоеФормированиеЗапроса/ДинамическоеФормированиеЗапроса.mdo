@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bcf7010-737f-445f-aafb-8e2752008b97">
+  <producedTypes>
+    <objectType typeId="a0a8273d-e9fa-48db-8145-f96770fa3059" valueTypeId="76950656-4ee8-4a1b-a6df-870df71db120"/>
+    <managerType typeId="9369db88-3af1-4ea5-87d5-41241be19a9c" valueTypeId="efa345b5-e024-4d2a-bafb-04ee0cf3e012"/>
+  </producedTypes>
+  <name>ДинамическоеФормированиеЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамическое формирование запроса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДинамическоеФормированиеЗапроса.Form.Форма</defaultForm>
+  <attributes uuid="d9cdcdff-0146-416d-9e33-efb962a67ba0">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="80719f0c-3aa0-40e7-9119-6fb9822933a8">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4a4b1e72-eeac-4f6e-86f0-61aa0d5d686b">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="eeec92f0-8131-4073-a95a-0bfa27db4b4b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25ca00a5-038e-4ce6-a925-35d722d6b589">
+  <producedTypes>
+    <selectionType typeId="a2fe2f70-5a8b-4257-a3c5-cd78288a9562" valueTypeId="349813cd-7330-44f5-886b-81a359cd50c5"/>
+    <listType typeId="ed32dba0-3be8-4c52-abea-f309175362ae" valueTypeId="faecf4a5-ba5a-42ca-b2f9-d20c53110883"/>
+    <managerType typeId="2c73c711-5419-42ff-9ce1-384744204774" valueTypeId="da1aa245-4d5e-4400-a3f0-7945e70e5cca"/>
+  </producedTypes>
+  <name>ДокументыЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы закупки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЗаказПоставщику</registeredDocuments>
+  <registeredDocuments>Document.ПриходнаяНакладная</registeredDocuments>
+  <columns uuid="4b773f4d-6ed6-485c-90f2-b7b4be42bb3f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ЗаказПоставщику.Attribute.Организация</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Организация</references>
+  </columns>
+  <columns uuid="af4cf498-63e5-4032-b9e1-b270dd78c39b">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.ЗаказПоставщику.Attribute.Склад</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Склад</references>
+  </columns>
+  <columns uuid="0405bf65-9789-43be-ac31-54b2d810376d">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ЗаказПоставщику.Attribute.Контрагент</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="3524ac98-fb43-4525-b403-615b0b362aa7">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <references>Document.ЗаказПоставщику.Attribute.Договор</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Договор</references>
+  </columns>
+  <columns uuid="1da85380-6233-4cfe-9687-0885db09155c">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ЗаказПоставщику.Attribute.СуммаДокумента</references>
+    <references>Document.ПриходнаяНакладная.Attribute.СуммаДокумента</references>
+  </columns>
+</mdclass:DocumentJournal>

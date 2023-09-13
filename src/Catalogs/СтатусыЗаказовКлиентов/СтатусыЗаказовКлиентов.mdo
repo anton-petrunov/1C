@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35ebb086-100b-4ef8-aa62-b35c4b853991">
+  <producedTypes>
+    <objectType typeId="7d10ba57-4074-4344-98c9-a104902507ae" valueTypeId="d2a33bae-03b9-4730-9d33-92202739c2bd"/>
+    <refType typeId="75e448ab-507c-48ae-89dd-ad3af7767e60" valueTypeId="6efc33b7-c979-458f-b594-4a12ecfb4e8a"/>
+    <selectionType typeId="e027c83f-066f-43a1-94d4-096ca7b46026" valueTypeId="2790b5b9-9fcd-4f66-977c-d8677d9b2c46"/>
+    <listType typeId="b9d4a0f3-a6ef-4b06-9691-60ee1b45acb4" valueTypeId="bd8c5e8c-9c38-4ae1-b5d8-c006a29a6351"/>
+    <managerType typeId="c21974bf-f2c1-4edd-a05d-dc6c20301fdf" valueTypeId="7ec6862f-cadf-42b3-aeca-e5351fdc211f"/>
+  </producedTypes>
+  <name>СтатусыЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказов клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатусыЗаказовКлиентов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статус заказа клиента</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="faa6e2f1-a880-4caf-a777-71db21e42519">
+      <name>Завершен</name>
+      <description>Завершен</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e80c6f59-4ddc-4092-bcb9-1ba87f684d22">
+      <name>Новый</name>
+      <description>Новый</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.СтатусыЗаказовКлиентов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатусыЗаказовКлиентов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="28e7faf2-ba3b-41b3-b8dd-1fb4f7459cfa">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c4edd31d-03c8-4b7b-a3cf-c6e275a98e56">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3be2e66-9eb3-4d9e-ae7a-c596070cc93f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

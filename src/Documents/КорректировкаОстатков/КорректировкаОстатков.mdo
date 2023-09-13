@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58a7b56f-16db-4452-b65d-9f34ff7c7434">
+  <producedTypes>
+    <objectType typeId="35de874f-7964-4c64-9391-d72284bc26fd" valueTypeId="39338bc3-d1af-4210-b06b-f4c3c07a46c3"/>
+    <refType typeId="877901bc-fd1c-45c2-8b00-a72682d8f73a" valueTypeId="f80af530-07a9-474c-bd9a-900cefca5233"/>
+    <selectionType typeId="a4ab5e6a-0dbf-4356-bd26-eaa73b69620e" valueTypeId="052f7e27-8a08-4299-b45b-638c3895106c"/>
+    <listType typeId="d7016822-c119-4ecd-b6a6-1520615c0a5b" valueTypeId="c9a6827c-027b-46ff-9d53-01d828dc16ba"/>
+    <managerType typeId="07a0c3ca-f6f3-4a84-9998-8a03c6aa410b" valueTypeId="4591a8b5-d2bd-4f19-a16f-04d4734fdb8d"/>
+  </producedTypes>
+  <name>КорректировкаОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка остатков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КорректировкаОстатков.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КорректировкаОстатков.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="aca8d614-55c2-4c73-b587-1c59cc0f733a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

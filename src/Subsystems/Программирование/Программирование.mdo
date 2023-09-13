@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4f341d4-c59d-4654-b4e0-e0db2933ebd4">
+  <name>Программирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделПрограммирование</picture>
+  </picture>
+  <content>DataProcessor.УниверсальныеКоллекции</content>
+  <content>DataProcessor.Циклы</content>
+  <content>DataProcessor.ДополнительныеОператоры</content>
+  <content>DataProcessor.РазборВопросов2</content>
+  <content>DataProcessor.РаботаСоСправочниками</content>
+  <content>DataProcessor.РаботаСПВХ</content>
+  <content>DataProcessor.РаботаСРегистрамиСведений</content>
+  <content>DataProcessor.РаботаСКонстантами</content>
+  <content>DataProcessor.РаботаСПеречислениями</content>
+  <content>DataProcessor.ПрограммнаяРаботаСОбъектами_ДомашнееЗадание</content>
+  <content>DataProcessor.ПрограммнаяРаботаСОбъектами_РазборЗадач</content>
+  <content>DataProcessor.ПрограммнаяРаботаСОбъектами_ДомашнееЗадание2</content>
+  <content>DataProcessor.ВызовМетодовОбъектов</content>
+  <content>DataProcessor.МодульОбъектаИМодульМенеджера</content>
+  <content>DataProcessor.РазборВопросов3</content>
+  <content>DataProcessor.ПерваяФорма</content>
+  <content>DataProcessor.УправляемаяФорма</content>
+  <content>CommonCommand.ПоказатьТекущуюДату</content>
+  <content>DataProcessor.ТипыДанныхФормы</content>
+  <content>DataProcessor.ПрограммноеСозданиеРеквизитовИЭлементовФормы</content>
+  <content>DataProcessor.ПроцедурыИФункцииИнтерактивнойРаботы</content>
+  <content>DataProcessor.ШаблоныТекста</content>
+  <content>DataProcessor.РазборВопросов4</content>
+  <content>DataProcessor.ПроцедурыИФункцииИнтерактивнойРаботы_ДомашнееЗадание</content>
+  <content>DataProcessor.ПолучитьДвоичныеДанныеФайла</content>
+  <content>DataProcessor.РаботаСДокументами</content>
+  <content>DataProcessor.КакУстроенРегистрНакопления</content>
+  <content>Document.КорректировкаОстатков</content>
+  <content>DataProcessor.ПрограммнаяРаботаСДокументами_ДомашнееЗадание</content>
+  <content>DataProcessor.РаботаСРегистромНакопления</content>
+  <content>DataProcessor.ПросмотрРезервыТоваров</content>
+  <content>DataProcessor.РазборВопросов5</content>
+  <content>DataProcessor.СпособыЧтенияДанных</content>
+  <content>DataProcessor.УКО_УправляемаяКонсольОтчетов</content>
+  <content>DataProcessor.ПоказатьОстатки</content>
+  <content>DataProcessor.РаботаСЗапросами</content>
+  <content>DataProcessor.РаботаСЗапросами_ДомашнееЗадание</content>
+  <content>DataProcessor.КакСоздатьЗапрос</content>
+  <content>DataProcessor.РаботаСМенеджеровВременныхТаблиц</content>
+  <content>DataProcessor.ДинамическоеФормированиеЗапроса</content>
+  <content>DataProcessor.ПолучениеРеквизитовОтСсылки</content>
+  <content>DataProcessor.РаботаСТранзакциями</content>
+  <content>DataProcessor.ПровестиЗаписатьДокумент</content>
+  <content>DocumentJournal.ДвиженияТоваров</content>
+</mdclass:Subsystem>

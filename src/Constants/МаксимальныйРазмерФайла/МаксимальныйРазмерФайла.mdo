@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80fd81cf-17ae-4a83-9837-f273db8c6bff">
+  <producedTypes>
+    <managerType typeId="1dfefb74-42e3-4b08-b22c-2657cd3759e8" valueTypeId="a6b00797-ae3d-4bc5-9d93-5e3b7f1065d8"/>
+    <valueManagerType typeId="07ccf90d-c245-4914-b69d-d1910ab541f2" valueTypeId="cd3658f3-2ef5-4c30-aa1b-5bf2df0d22d5"/>
+    <valueKeyType typeId="892510ae-b7ed-4235-9d50-87fe302b0894" valueTypeId="ea9fb368-c7da-45bb-a010-1f888d47ae09"/>
+  </producedTypes>
+  <name>МаксимальныйРазмерФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальный размер файла, КБ</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:StringValue">
+    <value>500</value>
+  </maxValue>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

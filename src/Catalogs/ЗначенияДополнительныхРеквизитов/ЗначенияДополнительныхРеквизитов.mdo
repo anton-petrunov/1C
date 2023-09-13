@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db38b5ee-6c13-404d-b790-22caf7ec9f18">
+  <producedTypes>
+    <objectType typeId="ca526e7e-364a-4361-b4f0-a578d385ecef" valueTypeId="44385de0-75cc-414a-9e88-6dfccf1f16ff"/>
+    <refType typeId="7d6b8a2b-0747-4b19-a687-631bbd2367e6" valueTypeId="8c456c17-f1d0-4691-a80a-32907a8b9e77"/>
+    <selectionType typeId="0311a671-90b5-4a5b-bb59-1f01f9b87578" valueTypeId="eaea928c-f2e2-49f3-a03a-097a31c199c4"/>
+    <listType typeId="29adc0b9-9d4c-49eb-85b9-1f78fbe5ca1a" valueTypeId="67206ee3-0638-42dc-8d00-7a6ad4dc6ee0"/>
+    <managerType typeId="7cb697e9-ebb6-4578-b281-410a042bf21e" valueTypeId="63086f5a-a83a-4706-837d-c83c4992ee1f"/>
+  </producedTypes>
+  <name>ЗначенияДополнительныхРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения дополнительных реквизитов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗначенияДополнительныхРеквизитов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗначенияДополнительныхРеквизитов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Дополнительное значение</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Дополнительное значение</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Значения дополнительных реквизитов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Значения дополнительных реквизитов</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.ДополнительныеРеквизиты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

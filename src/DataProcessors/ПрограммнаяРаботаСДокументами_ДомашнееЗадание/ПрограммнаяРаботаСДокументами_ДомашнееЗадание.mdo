@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e94d3c6-019c-436c-b73b-8a906235a360">
+  <producedTypes>
+    <objectType typeId="cedb04b3-6266-433a-9dc6-20c09fe00fe3" valueTypeId="bc2df8a1-6738-44f5-9d1a-b3daf0d0c0d3"/>
+    <managerType typeId="2bce82c9-ec76-4bce-ac1c-0207a4bcaba3" valueTypeId="cf5ccc15-2383-4d5c-9e1c-a3f573f02329"/>
+  </producedTypes>
+  <name>ПрограммнаяРаботаСДокументами_ДомашнееЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программная работа с документами (домашнее задание)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПрограммнаяРаботаСДокументами_ДомашнееЗадание.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Программная работа с документами</value>
+  </extendedPresentation>
+  <attributes uuid="04053878-9e20-4f42-b33f-4bac0838a99d">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="91b55abb-b3a2-4c4c-b3d6-96d88f8dc18e">
+    <producedTypes>
+      <objectType typeId="1e661a3a-19aa-44dd-b16c-0f8822fb2a46" valueTypeId="a45aeec3-8529-4832-83ee-f89d6d74dc32"/>
+      <rowType typeId="20d03112-b7a4-4aa6-8378-46d118039337" valueTypeId="2015e844-1e71-4ac8-a350-fe0820a49ffe"/>
+    </producedTypes>
+    <name>ОстаткиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки товаров</value>
+    </synonym>
+    <attributes uuid="24e8d87d-1cf2-4ac3-a3fd-1c2be3406c47">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8cf6f28c-eda2-4213-b361-2842578237c3">
+      <name>Остаток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="035caaab-968c-44fe-b63e-712b16b75244">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

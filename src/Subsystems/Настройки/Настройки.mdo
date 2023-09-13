@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9639e9d2-334f-4361-b5f7-d7cf0cae1252">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Setting</picture>
+  </picture>
+  <content>Constant.ЗаголовокПрограммы</content>
+  <content>Constant.ДатаЗапретаРедактирования</content>
+  <content>Constant.МаксимальныйРазмерФайла</content>
+  <content>Constant.СистемаНалогооблажения</content>
+  <content>Constant.СпособХраненияФайлов</content>
+  <content>Constant.ВалютаРегламентированногоУчета</content>
+  <content>Constant.ВалютаУправленческогоУчета</content>
+  <content>Constant.АдресМагазинаМП</content>
+  <content>Constant.ПарольСайта</content>
+  <content>Constant.ПрефиксИнформационнойБазы</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.КлассификаторЕдиницИзмерения</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Catalog.ЗначенияДополнительныхРеквизитов</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Дети</content>
+  <content>Catalog.ИсточникиПривлечения</content>
+  <content>ChartOfCharacteristicTypes.СписокПроизвольныхЗначений</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизиты</content>
+  <content>InformationRegister.ПроизводственныйКалендарь</content>
+  <content>InformationRegister.МРОТ</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>CommonForm.ФормаКонстант</content>
+  <content>Enum.ВидыДоговоров</content>
+  <content>Catalog.СтраныМира</content>
+  <content>AccumulationRegister.ТоварыНаСкладах</content>
+  <content>FilterCriterion.ДокументыКонтрагента</content>
+  <content>FilterCriterion.СвязанныеДокументы</content>
+  <content>Constant.ОсновнойСклад</content>
+  <content>Constant.РегистрироватьЦеныПоставщиков</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>AccumulationRegister.ПартииТоваровНаСкладах</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+</mdclass:Subsystem>

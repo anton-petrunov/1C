@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4e99b0a-149b-405c-b2de-143befd3282a">
+  <producedTypes>
+    <selectionType typeId="353bc3fb-8ad8-4c9d-82a4-057dbd2f2f39" valueTypeId="cfc7687d-8330-4cde-a5e3-76ccc7b28dd0"/>
+    <listType typeId="9581cb4d-5240-4b67-8f31-4b4bee87ef84" valueTypeId="a2233111-7186-448b-9adc-c6097d9090dc"/>
+    <managerType typeId="f14169b0-7c71-4dd0-8af4-13401a94fc9f" valueTypeId="5e41ccf9-8d9f-4cad-b0c2-62303ceb7e68"/>
+    <recordSetType typeId="e0a45fce-47e9-4498-816d-c278567da292" valueTypeId="c2e87be9-0f17-4846-8117-3e1b42b5f979"/>
+    <recordKeyType typeId="59dd4393-bd98-4a1c-8059-5535fcdbf57c" valueTypeId="23918227-6c35-4935-8c62-42460659191f"/>
+    <recordType typeId="b5a9654d-b1d9-4951-8097-de53311fd2d4" valueTypeId="3d956bb4-610e-4274-9e49-2ec59d8005f9"/>
+    <recordManagerType typeId="6bab6fcf-ae93-43e9-9606-68f9d3e3c423" valueTypeId="bdf220e4-825b-4a25-8b09-aa2d0b28b264"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5f91453d-6081-4252-968a-361ca8b57bc9">
+    <name>МетодРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодыРасчетаСебестомости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="da4e2acf-5d2e-41d8-a503-98d441297fa6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

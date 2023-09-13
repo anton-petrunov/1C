@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08abed53-c7db-4868-9f5d-9e645dd716c6">
+  <producedTypes>
+    <objectType typeId="7ff13e78-a05c-4dde-80ab-66b18fa81416" valueTypeId="1812e3a3-37a6-42d1-aaeb-155374e254ca"/>
+    <managerType typeId="6e008e53-25c4-4ef1-af32-38eb1304b651" valueTypeId="3f8903fe-e787-419a-b9f9-0ce1ab3ce065"/>
+  </producedTypes>
+  <name>ПечатьДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьДокументов.Form.Форма</defaultForm>
+  <forms uuid="d9f167e3-7de9-405a-93cc-6d58d280025c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
