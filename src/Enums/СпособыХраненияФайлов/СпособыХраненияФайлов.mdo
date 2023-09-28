@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6260df41-938c-4c72-a9af-47370be835d2">
+  <producedTypes>
+    <refType typeId="3db13a35-cc57-45ea-9dd7-4e6d59a8830f" valueTypeId="0bfabb49-7ae8-4c2c-9aa0-3df0c38b28f2"/>
+    <listType typeId="dccdb0ed-7614-4a3c-8d02-24fedd80effc" valueTypeId="221976b1-5488-42bf-8bf5-cda5cd468c8e"/>
+    <managerType typeId="bee7ecce-3345-4df0-9f4f-7702cda2f595" valueTypeId="7d04d210-00fb-49cf-ba54-bd64ad94a639"/>
+  </producedTypes>
+  <name>СпособыХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы хранения файлов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="69abd094-6acf-4b89-8da0-90b7435e2213">
+    <name>ВИнформационнойБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В информационной базе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df3a581c-1a40-4c01-b4c7-ca9059b2e7a5">
+    <name>ВТомахНаДиске</name>
+    <synonym>
+      <key>ru</key>
+      <value>В томах на диске</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b378edad-4c10-4b76-842d-5b8e18c968f8">
+    <name>ВИнформационнойБазеИВТомахНаДиске</name>
+    <synonym>
+      <key>ru</key>
+      <value>В информационной базе и в томах на диске</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

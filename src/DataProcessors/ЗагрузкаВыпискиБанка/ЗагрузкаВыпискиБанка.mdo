@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1aef6d83-e4b2-4c8e-9c12-932486650ed6">
+  <producedTypes>
+    <objectType typeId="93d34a1d-1349-4beb-a2a4-3c4d412663e8" valueTypeId="a7b17fcd-8039-4b68-a2ae-0540d305b680"/>
+    <managerType typeId="4e80a77e-4dc5-4b85-be02-96b3e383ce2f" valueTypeId="e77653cd-44e3-442f-8721-95806ad93f0c"/>
+  </producedTypes>
+  <name>ЗагрузкаВыпискиБанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка выписки банка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаВыпискиБанка.Form.Форма</defaultForm>
+  <forms uuid="9cabb61c-4d47-41a6-aa8a-0423772bf6ff">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

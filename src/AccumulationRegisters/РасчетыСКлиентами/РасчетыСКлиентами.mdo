@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8fef92e-262f-4e06-9e70-37b764a0262c">
+  <producedTypes>
+    <selectionType typeId="8d278b0f-9b31-4d23-b16d-aa5149b5b77f" valueTypeId="e115a17b-da05-4367-972b-da7e995b1a20"/>
+    <listType typeId="6f47ac07-16b4-440a-bcc3-bd9a3d73684a" valueTypeId="30f8632c-3f32-4032-9aff-df58f4c00aea"/>
+    <managerType typeId="e9274bb2-fdc1-4c11-8899-1bf96ea25d0d" valueTypeId="a33b0cfa-b872-4fa2-a365-a1407513a719"/>
+    <recordSetType typeId="9ef575eb-52c3-4ecf-afdc-ebb78ab7732a" valueTypeId="77fd394e-7901-46be-b2d4-9fcd01bc395d"/>
+    <recordKeyType typeId="8cf2932d-b6b5-4af6-92db-7e18bfb4cffc" valueTypeId="e32b9ea2-2402-4e1c-8136-d58a90a3480d"/>
+    <recordType typeId="91d77fa9-d449-4c0c-ad50-83d75cf9a905" valueTypeId="fd1c18af-1e45-4b7e-ad45-256554eff6f7"/>
+  </producedTypes>
+  <name>РасчетыСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты с клиентами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="34edce62-ad99-495a-88a5-4f5d06c29e63">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="1431bf23-a4e0-4c50-bff8-d7a7c0b45072">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fa93cb3d-bd2f-4152-bc15-7e29fd47c076">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2e3718c1-1806-4c0b-bb06-76fbdbb02d59">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

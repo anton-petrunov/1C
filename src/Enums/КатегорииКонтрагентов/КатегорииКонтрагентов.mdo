@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b4b008b-48f2-475e-b664-884aa320726d">
+  <producedTypes>
+    <refType typeId="e37f7f1f-e1c4-4dad-9a71-f7ab7bb98702" valueTypeId="faabd9b4-6b54-46ce-8da1-cd6c801fc466"/>
+    <listType typeId="4d5fb3fa-0464-49af-8d57-f5be38554da0" valueTypeId="f33c4f28-6740-4eea-9e93-af41fda2232a"/>
+    <managerType typeId="c77b8086-31f0-418a-a986-862cbef06448" valueTypeId="cb2d966f-31b3-4956-9744-dd450a89f138"/>
+  </producedTypes>
+  <name>КатегорииКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории контрагентов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ea2cf6c8-590d-495e-ae42-4bfc32d64f09">
+    <name>Важный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d4f9817-c911-43f4-9d48-78e38f73b5fb">
+    <name>Обычный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a7e782e-4c87-4f21-ad71-73d6721914c7">
+    <name>Ключевой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

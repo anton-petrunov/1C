@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1deada63-d206-49f3-ad26-710c60f8c5b0">
+  <producedTypes>
+    <objectType typeId="55097e54-8dbe-4ddd-b245-80c88de62a1c" valueTypeId="28345993-d3ef-43e3-a6c7-a9add84e5ebd"/>
+    <managerType typeId="cb7eedde-ac00-4879-820d-609f8a26dbc6" valueTypeId="9f54ab8a-5844-4586-9ad2-a4cc443a268a"/>
+  </producedTypes>
+  <name>Отчет_ОстаткиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет остатки товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Отчет_ОстаткиТоваров.Form.Форма</defaultForm>
+  <forms uuid="adb8995d-e4f6-4254-a200-3b5a282ce661">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

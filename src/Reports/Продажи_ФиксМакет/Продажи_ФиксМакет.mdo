@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9266dba-6e36-49ac-ad7a-394193f2641c">
+  <producedTypes>
+    <objectType typeId="ed7d71ee-1da5-4c9a-8ec5-8a5dc297d37a" valueTypeId="07a004cd-5bb9-433f-92a3-d3caaa8dd6f2"/>
+    <managerType typeId="e2854c4d-c240-435f-a344-86191f5de4f4" valueTypeId="157d35e6-5d08-4028-9db2-542f52f6bcd2"/>
+  </producedTypes>
+  <name>Продажи_ФиксМакет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи фикс макет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Продажи_ФиксМакет.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="eeb0f916-e385-4e79-a1bc-c731bfa23ca7">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4ab9ee34-db44-4ff0-9308-a10102ec7155">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="99652d2a-20a2-4ae0-8ae2-97971f892d7f">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f1655fe2-aa9d-42c7-b038-7c2d7bb45268">
+    <name>МакетОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

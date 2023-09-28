@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="741c8c46-bac4-4336-bf70-54067feda574">
+  <producedTypes>
+    <objectType typeId="eb27d080-4f0f-4570-a4bf-2f50dc0fbfec" valueTypeId="57c70b09-f42c-47a7-9c71-112c8fbf414c"/>
+    <managerType typeId="c4da76cc-19fe-4fa7-8bda-5eff249f9540" valueTypeId="4b998ef7-6aff-4f68-b078-711495c10bcf"/>
+  </producedTypes>
+  <name>РаботаСФормойОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с формой отчета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСФормойОтчета.Form.Форма</defaultForm>
+  <attributes uuid="50b452a2-62c4-4502-a0a5-2bb48d49cb0a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e94fc20b-1fdb-4056-a9d8-d8cf676c3fff">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

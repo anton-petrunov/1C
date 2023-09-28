@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb8e69b8-b2fd-45d3-b34b-684c7f8df0cb">
+  <producedTypes>
+    <objectType typeId="aff3f405-a42c-453c-8f95-824b697cc324" valueTypeId="c2122da9-59e1-45a2-9396-003ca31ad804"/>
+    <managerType typeId="bdc013db-faf8-4d6e-99c9-f004a3eb3f2c" valueTypeId="de7a1329-e701-440c-ade6-158f612b7d4b"/>
+  </producedTypes>
+  <name>ПолучениеРеквизитовОтСсылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение реквизитов от ссылки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучениеРеквизитовОтСсылки.Form.Форма</defaultForm>
+  <attributes uuid="d594c533-8407-48e0-8138-399208ee1739">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d6c613a5-b8cd-4e86-8081-2f730790fbc4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

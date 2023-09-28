@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="761f671a-674d-4315-be22-6dd18ca21a69">
+  <producedTypes>
+    <refType typeId="967f46c9-c9f6-4f3a-b761-43a569b71900" valueTypeId="437eecde-12cc-45be-9627-f3243501d7c5"/>
+    <listType typeId="2e3a7f39-6715-42b4-8e37-3cb34fb4e964" valueTypeId="f4ebe42f-2f6b-4b17-a87d-6a68f420ec63"/>
+    <managerType typeId="93a04ff2-4612-400d-8023-cc6d07af34d4" valueTypeId="b8214588-8d3a-4cc0-bd76-570c604134eb"/>
+  </producedTypes>
+  <name>ВидыДнейКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дней календаря</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f9d0f3e4-c2e4-4e6e-9175-f140e6efa2bc">
+    <name>Рабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="289e2d4e-ad5f-4226-9e4c-663ad9ec1577">
+    <name>Предпраздничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпраздничный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1be3513e-f190-4425-84b5-87fd8a13044f">
+    <name>Праздник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Праздник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8e84c80-7bf3-4b79-94fb-6120713ccd91">
+    <name>Суббота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суббота</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9598825e-59a0-4ab5-b9c0-d7e9c0476a16">
+    <name>Воскресенье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воскресенье</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

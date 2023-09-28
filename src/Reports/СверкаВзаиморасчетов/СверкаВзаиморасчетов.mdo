@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2cfacf7-71ff-4e8b-b84c-f2b592a77e8f">
+  <producedTypes>
+    <objectType typeId="1edc3475-5f7f-4b02-9c15-bc12c972c193" valueTypeId="fdc420cf-6a8d-401c-9bdc-d1af5115a241"/>
+    <managerType typeId="5a4f4666-4de3-4a06-a736-315843b714fe" valueTypeId="71184ff5-84a5-44bd-8f94-d0445cb983ea"/>
+  </producedTypes>
+  <name>СверкаВзаиморасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка взаиморасчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СверкаВзаиморасчетов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СверкаВзаиморасчетов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="e94cbd77-dc28-41a7-a872-f0d5daaa7eb8">
+    <name>АдресДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="25a7a75e-e35b-4dde-a53e-33fc9f498692">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a23cf8b5-bdf2-47cf-b334-ba3be3004b72">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

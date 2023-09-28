@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="144e852d-2773-4b7e-94df-ef04c6a5c96c">
+  <producedTypes>
+    <recordType typeId="e2926b05-4702-475d-8ad7-80e12b944574" valueTypeId="ac03266f-865a-4992-b86e-e7abf6290b65"/>
+    <managerType typeId="6b3fe660-73e1-4ad0-9b6c-f1b62ab53116" valueTypeId="ae287eb2-b0cb-40c2-9c71-246d33724e0f"/>
+    <recordSetType typeId="5b3520a7-30c8-4d3f-89ba-3819a5fbb07b" valueTypeId="466e63ec-bd42-4037-b8df-218ea32d1721"/>
+  </producedTypes>
+  <name>ОстаткиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров</value>
+  </synonym>
+  <moveBoundaryOnPosting>DontMove</moveBoundaryOnPosting>
+  <documents>Document.РасходнаяНакладная</documents>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e14ab44a-c9ca-4829-bf5c-8b0ce68d61dd">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <documentMap>Document.РасходнаяНакладная.Attribute.Склад</documentMap>
+    <registerRecordsMap>AccumulationRegister.ТоварыНаСкладах.Dimension.Склад</registerRecordsMap>
+  </dimensions>
+</mdclass:Sequence>

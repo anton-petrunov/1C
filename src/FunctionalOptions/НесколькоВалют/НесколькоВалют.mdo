@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23395d0f-4959-4893-9ceb-12b37ac7083e">
+  <name>НесколькоВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Несколько валют</value>
+  </synonym>
+  <location>Constant.НесколькоВалют</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Валюты</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>Catalog.БанковскиеСчета.Attribute.Валюта</content>
+</mdclass:FunctionalOption>

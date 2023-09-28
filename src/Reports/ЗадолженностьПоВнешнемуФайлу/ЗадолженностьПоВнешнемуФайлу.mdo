@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41d78320-5766-4b77-b796-7d44dcde0192">
+  <producedTypes>
+    <objectType typeId="754ead0b-cc17-4522-8fc6-ef0f753d485c" valueTypeId="ab79ceab-72f3-4bf1-8436-897e579efd41"/>
+    <managerType typeId="fa48ba05-0082-42ed-be69-731da8b58c5b" valueTypeId="2b505cc4-ee12-4cb0-9c88-ee22b7921c5c"/>
+  </producedTypes>
+  <name>ЗадолженностьПоВнешнемуФайлу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задолженность по внешнему файлу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЗадолженностьПоВнешнемуФайлу.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЗадолженностьПоВнешнемуФайлу.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="05ffcb54-197e-4771-8e89-f5dcd893093c">
+    <name>АдресДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="46b48a39-2c5f-42a9-984d-40dee3ae9405">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7853e1bb-9776-443d-9577-923eaba80d67">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

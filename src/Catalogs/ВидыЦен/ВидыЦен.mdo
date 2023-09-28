@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2051d00c-b722-4ad4-ba1e-581b53c48f7c">
+  <producedTypes>
+    <objectType typeId="17c0c068-16da-44af-aa0e-054d3b8e7cb3" valueTypeId="f177a4fc-86d0-4a47-9622-40ca4831ed86"/>
+    <refType typeId="d662f74d-2d04-4af5-909e-35cabc84a174" valueTypeId="7dbe718e-b49f-4b9e-827c-be11efb01d69"/>
+    <selectionType typeId="0b1a00d7-9dca-4596-a480-3826bce9d397" valueTypeId="96b8990b-cdcd-4a15-a7c5-0ce531934ca6"/>
+    <listType typeId="e86597ff-a2fb-4983-89e6-e3c1083310a4" valueTypeId="984cc7d3-6d17-4cd6-bc02-a6e5a112db21"/>
+    <managerType typeId="479bd1de-1f65-4122-a7f5-8a8f606aa796" valueTypeId="c70c1b7e-7d84-4a25-af04-8d826e5a4197"/>
+  </producedTypes>
+  <name>ВидыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЦен.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыЦен.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид цен</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f7d8c508-def2-4c84-82a2-ed1dea449071">
+      <name>Оптовая</name>
+      <description>Оптовая</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="fb27c81f-7087-4272-ab72-d46a0a4e7ad3">
+    <name>ЦенаВключаетНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена включает НДС</value>
+    </synonym>
+    <comment>Истина - цена включает НДС, ложь - не включает</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
