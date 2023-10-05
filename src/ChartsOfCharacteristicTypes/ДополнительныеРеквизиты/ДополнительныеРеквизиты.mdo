@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77219be0-2d35-4db4-abcb-eb9f37eeb573">
+  <producedTypes>
+    <objectType typeId="04af1a60-cff1-4085-a1d8-1e61734241a7" valueTypeId="a4775c03-50a0-4a0e-b185-274e58aab4f7"/>
+    <refType typeId="941a9228-1077-45f8-a425-a2c8c2cb44fa" valueTypeId="7e5f087f-7a20-490f-9413-04c90891f27a"/>
+    <selectionType typeId="d0f62dac-7f53-43a2-9ce9-e34d26321455" valueTypeId="15294290-897d-4558-be22-a06e5de9ec6c"/>
+    <listType typeId="f514e2e0-66a2-47cc-a41b-185405d6c4e7" valueTypeId="d0dbbf6e-6278-4a63-b4ca-8d0a82759e94"/>
+    <managerType typeId="58d436fd-3b9d-482b-952a-470097ee94eb" valueTypeId="1fd5d432-2c6c-4505-be3e-56394f8330de"/>
+    <containerType typeId="27249403-3567-40c1-91e0-d709bf2fa721" valueTypeId="aa53e723-e82d-4c67-85b2-3d905593d0d9"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеРеквизиты.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеРеквизиты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.КонтактныеЛица</types>
+    <types>EnumRef.СистемаНалогооблажения</types>
+    <types>CatalogRef.Склады</types>
+    <types>Boolean</types>
+    <types>CatalogRef.ЗначенияДополнительныхРеквизитов</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>EnumRef.ЮрФизЛицо</types>
+    <types>CatalogRef.Валюты</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="cc525cbb-ba56-4162-a43b-b997c65a2fc0">
+      <name>Справочник_Контрагенты</name>
+      <description>Справочник &quot;Контрагенты&quot;</description>
+      <isFolder>true</isFolder>
+      <code>000000011</code>
+      <type/>
+    </items>
+    <items id="c4b18510-469a-4b42-9989-dc0ab82a4c42">
+      <name>Справочник_Номенклатура</name>
+      <description>Справочник &quot;Номенклатура&quot;</description>
+      <isFolder>true</isFolder>
+      <code>000000013</code>
+      <type/>
+    </items>
+    <items id="0f038e68-8989-43db-ad35-ea391cb48054">
+      <name>Справочник_Организации</name>
+      <description>Справочник &quot;Организации&quot;</description>
+      <isFolder>true</isFolder>
+      <code>000000012</code>
+      <type/>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ДополнительныеРеквизиты.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="453855bf-c061-4401-a109-449b2821a55a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

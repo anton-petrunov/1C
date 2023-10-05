@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a470afc-0184-43d7-b3f8-28b05d49a03f">
+  <producedTypes>
+    <objectType typeId="d3af1257-15c3-4f9d-ac1d-6381b2aa3e5a" valueTypeId="5a85d48b-ac01-42ff-9a61-719ef915c37f"/>
+    <managerType typeId="a9fed58a-87c7-46d6-a8af-81f1b7598f08" valueTypeId="c6b346df-d7b4-45ee-9c30-75dbf5fd6ebe"/>
+  </producedTypes>
+  <name>УКО_УправляемаяКонсольОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управляемая консоль отчетов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Managed reporting console</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УКО_УправляемаяКонсольОтчетов.Form.Основная</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="85ea9b85-390e-4858-9c75-ef23d1f1f6b4">
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form (main)</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8857042e-fa36-4a81-b6e0-15e2f8b10653">
+    <name>УКО_АнализИсполняемыхЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ исполняемых запросов</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d1f9fbc-3b89-474c-aa26-fb7965f9aba2">
+    <name>УКО_АнализПланаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ плана запроса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Query plan analysis</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="543fa261-27a7-464b-966c-3018d3625fd0">
+    <name>УКО_Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="88f31959-f182-49d2-a805-530e1bde2949">
+    <name>УКО_ВставкаПредопределенногоЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вставка предопределенного элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Insert a predefined element</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ecbb2a59-115b-42ce-8afe-ece63ab03a64">
+    <name>УКО_ВставкаСсылкиНаОбъектБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вставка ссылки на объект БД</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Insert a reference to a DB object</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82bc1529-0020-4fb1-9e60-db46b4ebbff5">
+    <name>УКО_ДиалогВыбораНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог выбора настроек</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Load/save settings</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c4200646-69c9-4fd2-a404-42a332673ace">
+    <name>УКО_ДлительнаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительная операция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Long-term operation</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0ad0aaf8-caef-4fbf-b2e0-139d6a14d022">
+    <name>УКО_ДоступноОбновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступно обновление</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>An update is available</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="610e1b8e-a232-4e0c-9eb9-defe013f81e2">
+    <name>УКО_ЗагрузкаВТаблицуЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка в таблицу значений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Download in a table of values</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e11295ae-3da7-49ab-8238-1653676723a4">
+    <name>УКО_ЗаполнениеПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение параметров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Filling in parameters</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdbda5e0-8abc-49c2-9bdc-4daa74c9ef63">
+    <name>УКО_ЗарегистрироватьИзмененияВПланеОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировать изменения в плане обмена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Register changes in exchange plan</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="088f3e55-e97d-47b4-b079-5045158aabf4">
+    <name>УКО_ИсторияВерсий</name>
+    <synonym>
+      <key>ru</key>
+      <value>История версий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Version history</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f125cc95-6807-4f1e-be78-d16d58b5c4aa">
+    <name>УКО_КодНаВстроенномЯзыке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код на встроенном языке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code in the built-in language</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3a159bf-9e16-4c2e-85ce-74b943cdb0aa">
+    <name>УКО_КонструкторСтрокиДляОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор строки для отладки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>String constructor for debugging</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="58334c23-1489-434b-bc33-45d5f38034b5">
+    <name>УКО_НастройкаСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка сравнения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Set up comparison</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="50fdaf32-4586-4c1b-9cd7-a53d2e929ac1">
+    <name>УКО_Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Settings</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1a1a6b2c-2ddd-4881-82db-6de70f76d301">
+    <name>УКО_ОбработкаРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка результата</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Result processing</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="59b1e79e-c1e9-4be5-8d9f-5b8db3330d41">
+    <name>УКО_ПереименованиеПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переименование параметра</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Renaming a parameter</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="81fa33cd-0b19-495a-a7bc-da80c90929d0">
+    <name>УКО_РасшифровкаДанныхСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка данных строки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>String data decryption</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30b0df95-59ce-4956-84d3-55e02ce0d2d8">
+    <name>УКО_РедактированиеВыражения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование выражения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Editing an expression</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="54e99b0b-8282-4a63-ad1c-766263068772">
+    <name>УКО_РедактированиеГраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование границы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Editing the border</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56ab97e6-05c3-4b03-970f-7113961535eb">
+    <name>УКО_РедактированиеИдентификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование идентификатора</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11a3ff2d-a9cb-4c0b-897d-da6449e246b5">
+    <name>УКО_РедактированиеКолонкиТаблицыЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование колонки таблицы значений</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9a826454-3204-4c0f-a0cc-3d79a9783876">
+    <name>УКО_РедактированиеМоментаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование момента времени</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Instant (change)</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="920dc04a-57be-419b-a527-7a3f761b3a9a">
+    <name>УКО_РедактированиеСпискаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование списка значений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Editing the list of values</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="41f1524b-5844-4d2f-af65-4bdc6755e3ce">
+    <name>УКО_РедактированиеТаблицыЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование таблицы значений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Editing a table of values</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f84567f8-011f-4c75-9e3e-405cfb0631e2">
+    <name>УКО_РедактированиеТипаЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование типа значения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Select type</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d682977a-2043-44d5-be90-30685d2cf1a3">
+    <name>УКО_РедактированиеУникальногоИдентификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование уникального идентификатора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Editing a unique identifier</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b0ab0e02-c448-4cb1-a257-a40c12344b02">
+    <name>УКО_РезультатВОтдельномОкне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат в отдельном окне</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Result in a separate window</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="998c516e-dd99-4267-9a0a-7f07e2c1fbee">
+    <name>УКО_ЭкспортВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт в ...</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Export to ...</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6a2567c1-4617-4904-a1af-f94fe635929a">
+    <name>УКО_ЭкспортВоВнешнийОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт во внешний отчет</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="72ccb7ef-9abb-472a-be64-47bfbabdc005">
+    <name>УКО_ИсторияВерсий</name>
+    <synonym>
+      <key>ru</key>
+      <value>История версий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Version history</value>
+    </synonym>
+  </templates>
+  <templates uuid="e7e75b38-551d-4c5f-bd28-91741ddd0539">
+    <name>УКО_ПримерФайлаExcelДляЗагрузкиВТаблицуЗначений_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пример файла Excel для загрузки в таблицу значений</value>
+    </synonym>
+    <comment>XLSX</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="3a1cdc28-d1dd-43a6-b312-0866d1479469">
+    <name>УКО_ПримерФайлаMXLДляЗагрузкиВТаблицуЗначений_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пример файла MXL для загрузки в таблицу значений</value>
+    </synonym>
+    <comment>MXL</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="00435954-fa36-4434-acce-e5d384531a4e">
+    <name>УКО_РезультатЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат запроса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Query result</value>
+    </synonym>
+  </templates>
+  <templates uuid="49c234bf-517e-43fc-bb9f-363b3bc30b79">
+    <name>УКО_ФункцииЯзыкаЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функции языка запросов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Query language features</value>
+    </synonym>
+  </templates>
+  <templates uuid="4c9f39e2-d1bd-437d-a5a9-4bff5ef12b18">
+    <name>УКО_ШаблонФайлаНастройкиТехнологическогоЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон файла настройки технологического журнала</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Process log setup file template</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a04c0678-d835-48de-8837-b25cb020bdc3">
+    <name>УКО_ШаблонФайловВнешнегоОтчетаERF_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон файлов внешнего отчета (ERF)</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="0782ea7c-306e-4383-b6d7-6241e211c8db">
+    <name>УКО_ШаблоныРедактированияВыраженияВнешнегоИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны редактирования выражения (внешний источник)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Edit expression templates temporary table</value>
+    </synonym>
+  </templates>
+  <templates uuid="acc4b821-4a08-4ef7-ba56-6f543f46dc00">
+    <name>УКО_ШаблоныРедактированияВыраженияПараметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны редактирования выражения параметр</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Templates edit expression parameter</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ace4805-fa88-4d8a-9645-2cf80497063b">
+  <producedTypes>
+    <managerType typeId="6b829b4c-09f9-4bde-b4ea-fd03a2fb0cd1" valueTypeId="410db699-db23-464c-97cc-7fdb75f5e85f"/>
+    <valueManagerType typeId="f7c08ee3-b8af-4403-a39f-3a87059b4fa1" valueTypeId="a9328443-7109-4e54-ab1a-63e9b0ed4c9e"/>
+    <valueKeyType typeId="1ba92249-f5e0-4ea8-a6e8-6177f22cf3e4" valueTypeId="67f64b1a-732a-47a7-b65f-1ac0c5136a52"/>
+  </producedTypes>
+  <name>РегистрироватьЦеныПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрировать цены поставщиков</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

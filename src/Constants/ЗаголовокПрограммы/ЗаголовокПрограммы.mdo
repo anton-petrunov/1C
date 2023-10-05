@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9d2dfc1-2244-47f9-bf94-711e02bade16">
+  <producedTypes>
+    <managerType typeId="c37e6898-c3ae-4bc0-bded-b1d1a5496da9" valueTypeId="e21fcd93-6195-46f2-883f-c92cb9246f4a"/>
+    <valueManagerType typeId="f59e99cb-f44d-4320-8d08-8689ac4a1d60" valueTypeId="353ce255-4d67-4731-aada-60dbb26eebe2"/>
+    <valueKeyType typeId="62195cc3-53ba-4a41-bb97-719200a80282" valueTypeId="b1cd126b-530c-4659-aa2c-b40f8cea41eb"/>
+  </producedTypes>
+  <name>ЗаголовокПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заголовок программы</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

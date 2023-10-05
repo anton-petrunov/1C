@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a7238b5-783f-406f-94df-d47d7d5f2d9b">
+  <producedTypes>
+    <objectType typeId="714e566b-a033-454e-b5bf-2bea5f98e9b4" valueTypeId="98d41f9f-b45c-4b8c-ba29-d082d3a88fe0"/>
+    <refType typeId="fdaae100-7997-4712-a894-755b2da72ead" valueTypeId="3bd1125e-9539-4dad-816b-a8d91179e3b5"/>
+    <selectionType typeId="b5a48e5c-8e54-4bbc-9059-fb29ca831369" valueTypeId="16f3f57f-625b-4b83-b586-e5b496b96d73"/>
+    <listType typeId="dd522ca4-c987-44d9-a904-451187f2f3a8" valueTypeId="23d9f8a2-d2ad-4c48-8210-5a935f1c66ec"/>
+    <managerType typeId="e7e061cd-0f69-4179-8fb2-92a4fc33dab2" valueTypeId="687df640-0881-44fe-adfa-374b218ff167"/>
+  </producedTypes>
+  <name>Дети</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дети</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Дети.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Дети.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="58303045-2b66-4e38-970a-e4b4d1c017bb">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5bf10297-5c9f-4370-8e8a-75262eb4ba22">
+    <producedTypes>
+      <objectType typeId="8569a04c-92b8-471d-953e-4e0c34085cdb" valueTypeId="7d10700d-be9e-42fa-b3a0-99fe637b32cb"/>
+      <rowType typeId="127ccaad-8ca5-42ff-8775-69c7e6d87874" valueTypeId="28ff95ae-cda2-41ea-a35e-51eb491be08c"/>
+    </producedTypes>
+    <name>Родители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родители</value>
+    </synonym>
+    <attributes uuid="743f9ab8-d8e7-46e1-b6af-48863b9a2cd1">
+      <name>ФИО</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФИО</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

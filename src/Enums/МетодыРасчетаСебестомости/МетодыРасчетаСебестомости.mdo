@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="299f7680-c741-4746-8a1d-3b7cd5a06f2a">
+  <producedTypes>
+    <refType typeId="ebda8d2e-245e-4481-861b-7851de92af7e" valueTypeId="7251ce38-7538-44ed-8339-c735785bf4d8"/>
+    <listType typeId="34893081-f7f3-4b89-a832-00cc809d0501" valueTypeId="7654c6a8-c554-4e79-b37f-e0feb7050bc8"/>
+    <managerType typeId="c9d62c21-9dc5-4b3c-a877-dbfbb8527e98" valueTypeId="7a871398-81bc-489c-af8a-131f1115af68"/>
+  </producedTypes>
+  <name>МетодыРасчетаСебестомости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы расчета себестомости</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9be497ad-ebb2-40eb-9017-89d2a4411818">
+    <name>ПоСредней</name>
+    <synonym>
+      <key>ru</key>
+      <value>По средней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4067ed8-c750-4e0e-932d-11d75db5bc3b">
+    <name>FIFO</name>
+    <synonym>
+      <key>ru</key>
+      <value>FIFO</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a45dc640-a704-4323-bb79-786e39b1b4c5">
+    <name>LIFO</name>
+    <synonym>
+      <key>ru</key>
+      <value>LIFO</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

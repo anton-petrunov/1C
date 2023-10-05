@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30cf523e-f65f-44a9-823b-87e83fb3c5ae">
+  <producedTypes>
+    <objectType typeId="8211f800-7440-4eff-8e5f-e41403455b25" valueTypeId="f5f9ad80-7372-4a91-a447-6257fb9252e5"/>
+    <managerType typeId="3398969b-e1d0-472e-b418-8136be1417e1" valueTypeId="334fd447-fe02-45e4-bdf7-5d821120bb82"/>
+  </producedTypes>
+  <name>ПроцедурыИФункцииИнтерактивнойРаботы_ДомашнееЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процедуры и функции интерактивной работы (Домашнее задание)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроцедурыИФункцииИнтерактивнойРаботы_ДомашнееЗадание.Form.Форма</defaultForm>
+  <forms uuid="9f830bb6-d819-44d6-80ee-00b772c0c6fb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

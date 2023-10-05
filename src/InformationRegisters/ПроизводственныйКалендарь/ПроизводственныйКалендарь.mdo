@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c467fa6b-5d4d-4f11-b677-87a87ce4d6f7">
+  <producedTypes>
+    <selectionType typeId="64854054-7d67-4f7a-ae3f-0d2200f18d2a" valueTypeId="55fb63cf-e8ca-495a-b5fe-7972eb2c6ff7"/>
+    <listType typeId="8bf5063b-6218-45c1-a8e3-8f4efd64cd70" valueTypeId="cd6e297d-8a3a-4ffc-bfa0-0cbc6024e9ad"/>
+    <managerType typeId="5150d633-3167-4ca9-bd43-885c4df3fef8" valueTypeId="9718a18e-99f4-45dc-b09d-fa185a144c38"/>
+    <recordSetType typeId="e828003e-c845-4757-a510-d8d30028270c" valueTypeId="60e4cb06-f462-4d4b-9f9e-25eaa5502394"/>
+    <recordKeyType typeId="d77515e8-47dd-4dd7-b295-cea6b0327cf0" valueTypeId="1ecced61-396a-4888-8ef2-1ed9ea8382d8"/>
+    <recordType typeId="f722a50f-ee1f-4841-a8e5-a7b2b949854c" valueTypeId="24947b69-849b-4f3e-86e5-4deed1cd24bd"/>
+    <recordManagerType typeId="b51a8d03-ea0a-4bae-9187-50fec8d17f0a" valueTypeId="87e7a9b7-6244-4ad1-94a4-71d4adbe3883"/>
+  </producedTypes>
+  <name>ПроизводственныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственный календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись календаря</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Запись календаря</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Производственный календарь</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Производственный календарь</value>
+  </extendedListPresentation>
+  <resources uuid="e8dd2172-b210-4fe5-b588-a1a956f67f14">
+    <name>ВидДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дня</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДнейКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="13c2dc96-2ea6-455c-9ac2-937213a88ac4">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="01930371-1fef-4538-baac-db0f78e95877">
+    <name>ДанныеКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные календаря</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

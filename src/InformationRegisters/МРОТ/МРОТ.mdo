@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc191de0-0881-4aab-b129-58b7b9dcd175">
+  <producedTypes>
+    <selectionType typeId="f9453c88-fdb7-42ca-8332-a972abd5c57b" valueTypeId="6c200134-7a78-4e06-b354-0aa4f5c09179"/>
+    <listType typeId="99f31bb7-3abd-4068-b992-2970709589a6" valueTypeId="9a6445db-7479-42a5-8a53-def5e43a65d9"/>
+    <managerType typeId="ae9a7046-432f-42ec-be90-bdad9d223e67" valueTypeId="d47cae99-9b23-405e-a795-05ad0f66fbaa"/>
+    <recordSetType typeId="bf51b265-a833-4df2-a8c3-b05d694b07ab" valueTypeId="9de1da44-4ab2-4bad-9033-96323c666a46"/>
+    <recordKeyType typeId="b12f4949-2018-4557-8e8f-435643dfde6d" valueTypeId="f0600b37-1704-41e9-b8dc-e1e1070e1083"/>
+    <recordType typeId="6f965131-1764-45fa-bc33-b426c6f628e0" valueTypeId="978b7269-f9cb-4fbd-9a1b-aafddfbf0b8a"/>
+    <recordManagerType typeId="c5c264e4-3f2d-43cd-810d-e2009334784f" valueTypeId="6f65b65c-1133-4a97-ad32-51caf7c7cdfe"/>
+  </producedTypes>
+  <name>МРОТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>МРОТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="521130f1-b4fb-41fe-9ead-e5c8f8c1a09a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

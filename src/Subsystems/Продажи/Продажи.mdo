@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afef0575-7091-4e34-a014-ca31394a22cb">
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделПродажи</picture>
+  </picture>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.КонтактныеЛица</content>
+  <content>Catalog.ВидыНоменклатуры</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>Catalog.НоменклатураПрисоединенныеФайлы</content>
+  <content>Document.ЗаказКлиента</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>Catalog.ДоговорПрисоединенныеФайлы</content>
+  <content>DataProcessor.Отчет_ОстаткиТоваров</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>AccumulationRegister.ТоварыВРезерве</content>
+  <content>Catalog.СтатусыЗаказовКлиентов</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>Catalog.ВидыЦен</content>
+  <content>Document.АктВыполненныхРабот</content>
+</mdclass:Subsystem>

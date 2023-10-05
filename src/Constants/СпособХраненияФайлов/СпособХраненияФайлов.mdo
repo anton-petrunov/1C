@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="069c773c-63a0-46f9-932b-24afc5bf2223">
+  <producedTypes>
+    <managerType typeId="27c9bbc2-f2dd-43ea-8e9a-81cd88c97f4a" valueTypeId="55229ab7-f5b5-4aef-b49d-e8e7238a7bc1"/>
+    <valueManagerType typeId="694a95b2-8827-4aac-b805-930826e6c7c4" valueTypeId="6ac78ab8-7c1d-435c-9c45-4ea7242b36a6"/>
+    <valueKeyType typeId="7bba74ba-3585-4f3d-9506-f7cf4302d9f8" valueTypeId="ea7ece93-1554-4db2-8f44-4c6e16b2932b"/>
+  </producedTypes>
+  <name>СпособХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ хранения файлов</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СпособыХраненияФайлов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

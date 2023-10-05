@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bf789ae-161e-4e58-934e-f448a9a2bb34">
+  <producedTypes>
+    <listType typeId="2f978ac1-bd5f-4c09-bc2e-398a1656634a" valueTypeId="5dbade44-53aa-468d-adf3-29366764f497"/>
+    <managerType typeId="c51594bc-a7e1-4eb3-a505-bdc74b510a91" valueTypeId="834ef84f-a724-4968-b88a-45131a959e13"/>
+  </producedTypes>
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаказПоставщику</types>
+    <types>DocumentRef.РасходнаяНакладная</types>
+    <types>DocumentRef.ЗаказКлиента</types>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ПриходнаяНакладная.Attribute.ДокументОснование</content>
+  <content>Document.РасходнаяНакладная.Attribute.ЗаказКлиента</content>
+</mdclass:FilterCriterion>

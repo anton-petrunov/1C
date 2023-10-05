@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="debd451e-a4c2-4e20-94b2-45cbc2abb456">
+  <producedTypes>
+    <refType typeId="87e2fd44-a164-41bf-94a4-cc6b64494c9a" valueTypeId="5b1e2e2e-74af-446a-8ec6-770e6e8d6391"/>
+    <listType typeId="7a3744b2-3533-4229-839e-6a3c0651795d" valueTypeId="9d0d42b1-6834-47e2-973f-ce4ab14e534c"/>
+    <managerType typeId="0576d54e-aff9-4978-8623-5aa49e41c5c9" valueTypeId="d416f24b-a054-4d44-8956-99581669c4b7"/>
+  </producedTypes>
+  <name>ВидыДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды договоров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d602dae-1dfc-422e-be41-cf5b1034017e">
+    <name>СПоставщиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>С поставщиком</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3e44196-2133-45eb-b9ba-755e3ae1fd4a">
+    <name>СПокупателем</name>
+    <synonym>
+      <key>ru</key>
+      <value>С покупателем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19e25c72-fe9a-40be-b697-1246e0d85a42">
+    <name>СКомитентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>С комитентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cec33c20-33fa-4c91-b132-da1cb99c1031">
+    <name>СКомиссионером</name>
+    <synonym>
+      <key>ru</key>
+      <value>С комиссионером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3c405f4-ba1c-44a1-bc92-2400f82ce1cd">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

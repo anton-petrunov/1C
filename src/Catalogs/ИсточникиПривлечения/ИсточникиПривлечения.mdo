@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07e3f969-f0bd-4122-8f42-83aacf8b0905">
+  <producedTypes>
+    <objectType typeId="5faf877a-60b3-4389-99fc-200f220a9198" valueTypeId="9408b749-8a5d-49cf-819e-99e195144a0a"/>
+    <refType typeId="a61b895b-a27c-40ae-8b72-96267c5f9e98" valueTypeId="a08fb7ca-0c2f-4343-9cc1-0fecec888cc2"/>
+    <selectionType typeId="c33924a6-241e-4022-b94a-b435cbdfeece" valueTypeId="3f2a693a-e536-4b90-bfbb-81f8c7224957"/>
+    <listType typeId="d8b8c799-26a6-4821-a445-70163fe7923c" valueTypeId="d09974fb-f1a2-427e-85a6-7c2bbedf12e5"/>
+    <managerType typeId="5dc1cee3-b192-48a6-946f-718dd5fdf3ea" valueTypeId="347bdfcb-05de-45b6-be3a-e31a0dab6413"/>
+  </producedTypes>
+  <name>ИсточникиПривлечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники привлечения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиПривлечения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиПривлечения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Источник привлечения</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Источник привлечения</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Источник привлечения</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
