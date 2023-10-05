@@ -1,4 +1,4 @@
-# Постановка задачи
+# Отчет на СКД с дополнением периода
 <img width="900" alt="11 12" src="https://github.com/anton-petrunov/1C/assets/97449490/e4c8a8d5-8300-4c63-bee3-e56286599b47">
 
 # Решение
