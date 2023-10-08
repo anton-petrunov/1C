@@ -7,3 +7,6 @@
 
 ### Задачи на отчеты и СКД
 [Отчет на СКД с дополнением периода](https://github.com/anton-petrunov/1C/tree/problem_34)
+
+### Задачи на запросы
+[Простые запросы (15 задач)](https://github.com/anton-petrunov/1C/tree/problem_20)
