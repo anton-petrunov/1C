@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="029ad6e5-ac67-4f82-a656-09be8d1842af">
+  <producedTypes>
+    <objectType typeId="77072117-fad2-460d-afa6-9b86e84f32fb" valueTypeId="7edf896c-f2ec-49a7-944b-32b7a70efcb8"/>
+    <refType typeId="1c59c9a2-b553-4d68-bf61-01db5d34c72b" valueTypeId="126e9c74-f517-4fb3-9050-78ea0a443445"/>
+    <selectionType typeId="82af15ee-f0f3-41ee-bb83-330a902ad0bb" valueTypeId="ba8b3605-c3eb-4d5d-8262-8bb6cde7bbee"/>
+    <listType typeId="e7d0bfa5-f35b-4ef5-b23c-022536465443" valueTypeId="0d467876-6f2c-433a-9a54-0ac86c02301b"/>
+    <managerType typeId="5fbde885-98af-42c9-b3bd-bd278de2f692" valueTypeId="d1985801-a313-4de0-9ae7-ab6d3a0c2fce"/>
+  </producedTypes>
+  <name>ПоступлениеТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеТовара.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Партии</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыВНаличии</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="4d546594-e917-4f83-84cf-de51b57a85da">
+    <producedTypes>
+      <objectType typeId="1fb2255f-43ed-41d8-b6f8-ef1ef2decd93" valueTypeId="595fa2c8-0679-408b-8882-76ca1ea57525"/>
+      <rowType typeId="714ed132-1a2a-462a-b9a3-26c7834d9e75" valueTypeId="60fcd973-552e-4bd3-9e01-4f4b0af7ac42"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="19ee327e-800d-451c-9f54-8c78155307a8">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f0a23483-ce3d-41a4-bd67-11c68fc8cf9b">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="843dd2fb-8fdc-4c65-9c5d-bccbccadd0e5">
+      <name>СрокГодности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок годности</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

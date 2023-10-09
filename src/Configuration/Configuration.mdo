@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="977eb5f1-b8a6-42c4-9b9a-25dc4220a5ff">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="253a37b2-3300-4d6f-9104-d98d3bc4df7f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f11e74c8-aecf-4327-a8d9-09176a748d4d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c7d9eee7-a470-4a39-bcee-d00706e77212"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="749322a5-5083-4026-bf5d-ff656cc1170f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5c7d5f8b-40f5-464e-963c-1e756c27ab7f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9d53339d-803b-4c92-a901-c6463ad3bd1f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ac99bd0f-6c5a-49ad-8455-c82b2b1f3f6b"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="a3c1d4e9-d845-4967-b884-d02f0cda183e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <commonPictures>CommonPicture.РазделПродажи</commonPictures>
+  <commonPictures>CommonPicture.РазделЗакупки</commonPictures>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ПоступлениеТовара</documents>
+  <documents>Document.ПродажаТовара</documents>
+  <reports>Report.ОтстаткиТоваров</reports>
+  <reports>Report.Продажи</reports>
+  <accumulationRegisters>AccumulationRegister.Партии</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыВНаличии</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
