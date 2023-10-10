@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4803f385-63b7-4296-a605-2a8b8afaf145">
+  <producedTypes>
+    <refType typeId="d5826097-7494-4777-a234-c791d2bd79e9" valueTypeId="ed74f593-fb62-4519-b913-6de90b0638bc"/>
+    <listType typeId="34ef7e0a-74e5-41d7-b9a4-d4d723aee60e" valueTypeId="556710e8-3a83-4b8a-97f4-5b24c4a39d8f"/>
+    <managerType typeId="4d0f2b52-c730-492e-acd3-672e7f8b3c5c" valueTypeId="59f5d392-1c22-40e0-b9a4-63d456f7c5d5"/>
+  </producedTypes>
+  <name>СпособыУстановкиКурса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы установки курса</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ef0798d-80be-4ce7-9773-825931cfb182">
+    <name>ЗагружаетсяИзИнтернета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружается из интернета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ba37388-c7a8-4fe5-b06a-a766b3a32603">
+    <name>РучнойВвод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной ввод</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

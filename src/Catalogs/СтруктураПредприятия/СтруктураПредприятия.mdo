@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0205060-51ca-4d1a-a5a5-8d14b92c05a4">
+  <producedTypes>
+    <objectType typeId="3b876a56-7894-4dce-b543-1e5daf7a7283" valueTypeId="b6cc48e5-cf99-48f0-a21d-ffdcde0f7555"/>
+    <refType typeId="2fc10489-a485-4e40-a924-b78e3b176c68" valueTypeId="73011e72-dfca-480e-8f91-55d5b4e7145f"/>
+    <selectionType typeId="5ecfe570-9217-4e9e-90d8-7b8b0c647481" valueTypeId="1bbda08b-1769-4975-abce-3b871795d5fb"/>
+    <listType typeId="61b92f2b-b1b0-493d-82bc-8fb37bf8c493" valueTypeId="fb522277-5f8a-4621-8836-12edc88b1798"/>
+    <managerType typeId="a713d019-f9a5-47c1-a545-44245f9ce91b" valueTypeId="69e8f28b-41e3-4dcd-bae4-bfbd9b1c81d1"/>
+  </producedTypes>
+  <name>СтруктураПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

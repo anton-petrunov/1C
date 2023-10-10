@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa53d933-9682-4967-8f2b-49c6516e5a8d">
+  <producedTypes>
+    <objectType typeId="42d33ece-8648-4763-b6ff-2e718f9dc3df" valueTypeId="16c778b5-4afe-4f41-87a4-68c92e8eaab5"/>
+    <refType typeId="8ec8a512-4904-4923-a0a2-e91e828a45b8" valueTypeId="a943dd66-3902-439f-a520-a7efa28e27a3"/>
+    <selectionType typeId="1674fd47-fe8b-46db-83c7-c098f267206e" valueTypeId="f5ea11d2-3698-4c3d-902b-c6d43b860349"/>
+    <listType typeId="c081c23f-8c29-47c5-afc0-8753a4d0d0f0" valueTypeId="e730840a-d11e-4d8f-b002-14b1c6d41a79"/>
+    <managerType typeId="99223667-0b7a-4913-a2dc-af7581b658cc" valueTypeId="243dcbba-431d-417d-b96d-0e03a147a828"/>
+  </producedTypes>
+  <name>СтраныМира</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны мира</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтраныМира.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтраныМира.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Страна мира</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Страна мира</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Страны мира</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Страны мира</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5293943f-88b7-4b50-9637-51c4ef7a292c">
+      <name>Беларусь</name>
+      <description>Беларусь</description>
+      <code xsi:type="core:StringValue">
+        <value>112</value>
+      </code>
+    </items>
+    <items id="332aa8e7-2f08-4d37-9816-581c634fbf93">
+      <name>Россия</name>
+      <description>Россия</description>
+      <code xsi:type="core:StringValue">
+        <value>115</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

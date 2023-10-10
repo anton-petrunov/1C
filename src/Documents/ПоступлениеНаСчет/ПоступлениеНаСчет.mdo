@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a49a62-5a53-4462-80da-48efb57df19a">
+  <producedTypes>
+    <objectType typeId="e980c67a-b326-422e-8c0d-19ff954f127e" valueTypeId="dc3039c1-cc0a-449c-ae4a-b3a11ed86a66"/>
+    <refType typeId="c46de437-8d15-4f80-9d68-e99b8c0eb22a" valueTypeId="5c4ad58a-0439-44d3-aca7-bb33dae42d3d"/>
+    <selectionType typeId="f5f96cc9-cc6d-40e9-92dc-b81cdd2c96c7" valueTypeId="2734ba30-cb6c-470b-826f-9dd11200fa43"/>
+    <listType typeId="0b3870e5-2071-40cf-8a80-d75b54fbc9ba" valueTypeId="dec25e3d-70d7-43cd-bef0-53d4ee068db6"/>
+    <managerType typeId="4d111800-52bc-428a-af41-cdc81ce17591" valueTypeId="f89ddab0-4319-47dc-9778-ce6c90babf7d"/>
+  </producedTypes>
+  <name>ПоступлениеНаСчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление на счет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеНаСчет.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="db854f3c-cc64-4f61-97ac-99509bec2c01">
+    <name>СчетКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeed72eb-a20f-4781-8c94-96b90b969994">
+  <producedTypes>
+    <refType typeId="1e13002a-bc5a-45fc-998a-6b90bace2361" valueTypeId="589ec152-ee4b-443a-a396-22e3cefae320"/>
+    <listType typeId="39f2b2eb-0565-4eb6-adb4-d2a2870a78d8" valueTypeId="6dfcc8a7-135f-47ab-8a1d-d620e67f771f"/>
+    <managerType typeId="74fe18d0-fcdd-4f55-ba32-f4cffdd20500" valueTypeId="9b35d18d-1c67-4728-ab89-88b97686c7ea"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контактной информации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="99b32cad-24cc-4f27-b1ad-a996a621e758">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52623571-dbf6-44ff-add0-b2d896833b33">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f5af733-6a0b-4245-a678-55c3eede71c8">
+    <name>ЭлПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4cb007db-a229-4440-86c1-5a5ed39088e3">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

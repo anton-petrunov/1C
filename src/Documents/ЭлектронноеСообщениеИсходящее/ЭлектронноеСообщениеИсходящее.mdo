@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bf7bdf7-699c-4f2d-bc3d-8002a364fc78">
+  <producedTypes>
+    <objectType typeId="e9ccd144-1bf8-42b6-88fe-adfea2b96d78" valueTypeId="59a501d1-065a-4570-bf5a-5b8893c3ee89"/>
+    <refType typeId="c7072c3b-ab9a-4eb2-83cb-c1ca84e472fe" valueTypeId="dd28a006-7379-41f8-b9b5-ca007734471e"/>
+    <selectionType typeId="400d2f80-e119-4c19-8278-667fcf9107ff" valueTypeId="5dc6887a-397c-4387-8eee-8ffded049841"/>
+    <listType typeId="803eaf76-0a82-4842-b136-0c6c41e6b59f" valueTypeId="2a35dbe8-8e8e-48dd-a2d4-2b9e2d4f0a62"/>
+    <managerType typeId="879c85ad-231e-4d9d-bea2-0b02edd995d4" valueTypeId="74546486-1fb6-4517-911c-ddbd459b9fca"/>
+  </producedTypes>
+  <name>ЭлектронноеСообщениеИсходящее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронное сообщение исходящее</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЭлектронноеСообщениеИсходящее.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ee630b7b-72b1-49c8-b324-0096530c7470">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

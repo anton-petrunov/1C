@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8eebb93-6004-44cb-b612-501fef6d5dc4">
+  <producedTypes>
+    <objectType typeId="b068440f-7f85-4411-843a-d2fa67e4ad99" valueTypeId="7fa1bc48-54cd-4fca-b526-8b2a0c290935"/>
+    <refType typeId="b1aa9aee-59ae-48ce-8934-14a37f321bb0" valueTypeId="3951367a-469e-42d3-874d-704bfffd1a49"/>
+    <selectionType typeId="3c91f0ca-ed69-44da-88ed-87164f319af0" valueTypeId="ee8625b7-0a7f-4ffa-affa-27b497b31cc3"/>
+    <listType typeId="1b87451b-472d-49ca-867f-8dd979f6f865" valueTypeId="800702de-e871-4776-af78-fb43ae73b024"/>
+    <managerType typeId="aedb3a5b-6706-40e2-b08f-f67f9f896a59" valueTypeId="da8dcf3b-0793-418d-a126-274356e63cae"/>
+    <containerType typeId="25831a12-d0a9-4e7b-a510-e2388393952d" valueTypeId="df7fb5eb-f984-4e78-a5fb-3fd63513d14d"/>
+  </producedTypes>
+  <name>СписокПроизвольныхЗначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список произвольных значений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СписокПроизвольныхЗначений.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СписокПроизвольныхЗначений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Произвольное значение</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Произвольное значение</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список произвольных значений</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список произвольных значений</value>
+  </extendedListPresentation>
+  <type>
+    <types>CatalogRef.Склады</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Банки</types>
+    <types>CatalogRef.Валюты</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="45c5a262-14de-409a-8011-f94a534a78ab">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СписокПроизвольныхЗначений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>ChartOfCharacteristicTypes.СписокПроизвольныхЗначений.StandardAttribute.ValueType</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>
