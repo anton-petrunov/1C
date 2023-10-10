@@ -18,3 +18,5 @@
 
 ### Задачи на запросы
 [Простые запросы (15 задач)](https://github.com/anton-petrunov/1C/tree/problem_20)
+
+[Запросы к регистрам (9 задач)](https://github.com/anton-petrunov/1C/tree/problem_21)
