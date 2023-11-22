@@ -5,6 +5,8 @@
 3. `1С: EDT` использована *только* для публикации проектов на GitHub.
 ### Выполненные тестовые задания
 [Тестовое задание для ООО "Невский"](https://github.com/anton-petrunov/1C-nevskiy-test)
+
+[Тестовое задание для ООО "Интеграти"](https://github.com/anton-petrunov/1C-intgraty-test)
 ### Задачи на управляемые формы
 [Доработка конфигурации. Полностью программное создание управляемой формы](https://github.com/anton-petrunov/1C/tree/problem_14)
 
